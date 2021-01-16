@@ -5,16 +5,19 @@ class AboutMe extends React.Component {
     return (
       <div>
         <img
-          src={this.props.image}
-          alt={this.props.alt}
-          id={this.props.id}
+          src={this.props.aboutme.image}
+          alt={this.props.aboutme.alt}
+          id={this.props.aboutme.id}
           className="portfolio-pictures"
         />
         <h6 className="project-title">
-          <p id={this.props.paragraphID} className="about-me-paragraphs">
-            {this.props.topic}
+          <p
+            id={this.props.aboutme.paragraphID}
+            className="about-me-paragraphs"
+          >
+            {this.props.aboutme.topic}
             <br />
-            {this.props.continueTopic}
+            {this.props.aboutme.continueTopic}
           </p>
         </h6>
       </div>

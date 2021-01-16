@@ -6,8 +6,8 @@ class MusicList extends React.Component {
       <div className="gallery-cell">
         <iframe
           className="songs"
-          title={this.props.title}
-          src={this.props.link}
+          title={this.props.music.title}
+          src={this.props.music.link}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
