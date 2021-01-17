@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/LouisYS-Carleton/updated_portfolio">
-    <img src="./portfolio/public/Assets/MAT_9247.jpeg" alt="Logo" width="80" height="80" style="border-radius: 50%;">
+    <img src="./public/Assets/MAT_9247.jpeg" alt="Logo" width="80" height="80" style="border-radius: 50%;">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
@@ -37,7 +37,7 @@
 
 ## About Me
 
-<img src="./portfolio/public/Assets/me.jpg" width="40px" height='40px' style="border-radius: 50%;" alt="Me">
+<img src="./public/Assets/me.jpg" width="40px" height='40px' style="border-radius: 50%;" alt="Me">
 
 My name is Louis Yacksmith and I am a Front-end Web Developer from Ottawa, Ontario. I enjoy coding, playing music, cooking, and a plethora of other activities when I have some free time.
 
