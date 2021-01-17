@@ -9,7 +9,7 @@ class Navbar extends React.Component {
             <a href="#welcome-section">Home</a>
           </li>
           <li>
-            <a href="#about-me-section">About</a>
+            <a href="#about-me-id">About</a>
           </li>
           <li>
             <a href="#projects">Portfolio</a>

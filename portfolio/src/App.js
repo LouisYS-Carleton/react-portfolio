@@ -26,7 +26,7 @@ class App extends React.Component {
         <Main />
 
         {/* About Me */}
-        <section className="about-me-section" id="about-me-section">
+        <section className="about-me-section" id="about-me-id">
           <h2 className="music-section-header">About</h2>
 
           <div className="portfolio-grid">

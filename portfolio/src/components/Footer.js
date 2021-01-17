@@ -5,8 +5,6 @@ class Footer extends React.Component {
     return (
       <footer style={{ textAlign: "center" }}>
         <p>
-          Louis Yacksmith
-          <br />
           louisyacksmith@hotmail.com
           <br />
           Ottawa, Ontario
