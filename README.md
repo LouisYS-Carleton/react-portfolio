@@ -9,8 +9,9 @@
 
   <p align="center">
     <br />
-    <a href="https://github.com/LouisYS-Carleton/updated_portfolio"><strong>Explore My Github »</strong></a>
+    <a href="https://github.com/LouisYS-Carleton"><strong>Explore My Github »</strong></a>
     <br />
+    <a href="https://louisys-carleton.github.io/react-portfolio/"><strong>View My Portfolio »</strong></a>
     <br />
     ·
     <a href="https://github.com/LouisYS-Carleton/Game-Helper/issues">Report Bug</a>
@@ -56,6 +57,6 @@ My name is Louis Yacksmith and I am a Front-end Web Developer from Ottawa, Ontar
 
 - Louis YS - LouisYSCarleton@gmail.com
 
-Project Link: [https://github.com/LouisYS-Carleton](https://github.com/LouisYS-Carleton)
+Github Link: [https://github.com/LouisYS-Carleton](https://github.com/LouisYS-Carleton)
 
 Linkedin: [https://www.linkedin.com/in/louis-yacksmith-2a06321b2/]https://www.linkedin.com/in/louis-yacksmith-2a06321b2/
