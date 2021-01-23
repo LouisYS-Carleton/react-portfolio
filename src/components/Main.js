@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from "../Assets/arrow.png";
 
 class Main extends React.Component {
   render() {
@@ -12,8 +13,8 @@ class Main extends React.Component {
         <br />
         <a href="#about-me-section">
           <img
-            src="./Assets/arrow.png"
-            alt=""
+            src={arrow}
+            alt="arrow"
             style={{ height: "50px", width: "50px" }}
           />
         </a>

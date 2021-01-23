@@ -8,10 +8,10 @@ const ProjectStore = [
       "This is an up-to-date version of my resume, including a small handful of my previous jobs.",
   },
   {
-    link: "https://louisys-carleton.github.io/Random-Password-Generator/",
-    image: "./Assets/Screen Shot 2020-10-04 at 10.48.43 PM.png",
-    alt: "Password Generator",
-    title: "Password Generator",
+    link: "https://vast-basin-35066.herokuapp.com/",
+    image: "./Assets/ss1.png",
+    alt: "Google Books Search",
+    title: "Google Books Search",
     value:
       "Allows the user to select their desired special characters and will put out a randomly generated password according to what they have selected.",
   },
