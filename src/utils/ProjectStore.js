@@ -13,7 +13,7 @@ const ProjectStore = [
     alt: "Google Books Search",
     title: "Google Books Search",
     value:
-      "Allows the user to select their desired special characters and will put out a randomly generated password according to what they have selected.",
+      "Allows the user to view, save, and search for books within the Google Books API.",
   },
   {
     link: "https://louisys-carleton.github.io/stock-buddy/",
