@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-// import "./style";
 
 import MusicList from "./components/MusicList";
 import Contact from "./components/Contact";
@@ -19,73 +18,75 @@ import MusicListStore from "./utils/MusicListStore";
 class App extends React.Component {
   render() {
     return (
-      <div className="App">
-        {/* Navbar */}
-        <Navbar />
+      <container className="col-md-9">
+        <div className="App">
+          {/* Navbar */}
+          <Navbar />
 
-        {/* Main */}
-        <Main />
+          {/* Main */}
+          <Main />
 
-        {/* About Me */}
-        <section className="about-me-section" id="about-me-id">
-          <h2 className="music-section-header">About</h2>
+          {/* About Me */}
+          <section className="about-me-section" id="about-me-id">
+            <h2 className="music-section-header">About</h2>
 
-          <div className="portfolio-grid">
-            {AboutMeStore.map((aboutme) => (
-              <AboutMe aboutme={aboutme} />
-            ))}
-            <div></div>
-          </div>
-        </section>
+            <div className="portfolio-grid">
+              {AboutMeStore.map((aboutme) => (
+                <AboutMe aboutme={aboutme} />
+              ))}
+              <div></div>
+            </div>
+          </section>
 
-        {/* Projects */}
-        <section id="projects" className="portfolio-section">
-          <h2 className="portfolio-section-header">Portfolio</h2>
-          <div className="portfolio-grid">
-            {ProjectStore.map((project) => (
-              <Projects project={project} />
-            ))}
-          </div>
+          {/* Projects */}
+          <section id="projects" className="portfolio-section">
+            <h2 className="portfolio-section-header">Portfolio</h2>
+            <div className="portfolio-grid">
+              {ProjectStore.map((project) => (
+                <Projects project={project} />
+              ))}
+            </div>
 
-          <h3>Github Links</h3>
-          <div
-            className="main-gallery js-flickity"
-            data-flickity-options='{"cellAlign": "left", "contain": true}'
-          >
-            {GithubLinksStore.map((githublinks) => (
-              <GithubLinks githublinks={githublinks} />
-            ))}
-          </div>
-          <a
-            href="https://github.com/LouisYS-Carleton?tab=repositories"
-            className="btn btn-show-all"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Show all
-            <i className="fas fa-chevron-right"></i>
-          </a>
-        </section>
+            <h3>Github Links</h3>
+            <div
+              className="main-gallery js-flickity"
+              data-flickity-options='{"cellAlign": "left", "contain": true}'
+            >
+              {GithubLinksStore.map((githublinks) => (
+                <GithubLinks githublinks={githublinks} />
+              ))}
+            </div>
+            <a
+              href="https://github.com/LouisYS-Carleton?tab=repositories"
+              className="btn btn-show-all"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Show all
+              <i className="fas fa-chevron-right"></i>
+            </a>
+          </section>
 
-        {/* Music */}
-        <section className="song-section" id="song-section">
-          <h2 className="music-section-header">Music</h2>
-          <div
-            className="main-gallery js-flickity"
-            data-flickity-options='{"cellAlign": "left", "contain": true}'
-          >
-            {MusicListStore.map((music) => (
-              <MusicList music={music} />
-            ))}
-          </div>
-        </section>
+          {/* Music */}
+          <section className="song-section" id="song-section">
+            <h2 className="music-section-header">Music</h2>
+            <div
+              className="main-gallery js-flickity"
+              data-flickity-options='{"cellAlign": "left", "contain": true}'
+            >
+              {MusicListStore.map((music) => (
+                <MusicList music={music} />
+              ))}
+            </div>
+          </section>
 
-        {/* Contact */}
-        <Contact />
+          {/* Contact */}
+          <Contact />
 
-        {/* Footer */}
-        <Footer />
-      </div>
+          {/* Footer */}
+          <Footer />
+        </div>
+      </container>
     );
   }
 }
