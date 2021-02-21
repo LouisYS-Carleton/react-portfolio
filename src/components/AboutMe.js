@@ -8,7 +8,7 @@ class AboutMe extends React.Component {
           src={this.props.aboutme.image}
           alt={this.props.aboutme.alt}
           id={this.props.aboutme.id}
-          className="portfolio-pictures"
+          className="about-me-pictures"
         />
         <h6 className="project-title">
           <p

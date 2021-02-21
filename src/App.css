@@ -241,7 +241,7 @@ img {
 
 .portfolio-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 4rem;
   width: 100%;
   max-width: 1280px;
@@ -486,6 +486,11 @@ footer i {
   color: white;
   font-family: "Comfortaa";
   padding: 5px;
+}
+
+.about-me-pictures {
+  height: 300px;
+  border-radius: 20px;
 }
 
 .songs {
