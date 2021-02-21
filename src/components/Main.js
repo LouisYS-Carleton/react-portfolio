@@ -10,7 +10,7 @@ class Main extends React.Component {
         <br />
         <br />
         <br />
-        <a href="#about-me-section">
+        <a href="#about-me-id">
           <img
             src="./Assets/arrow.png"
             alt=""
