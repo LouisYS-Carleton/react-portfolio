@@ -490,6 +490,8 @@ footer i {
 
 .about-me-pictures {
   height: 300px;
+  width: 300px;
+
   border-radius: 20px;
 }
 

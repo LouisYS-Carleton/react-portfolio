@@ -17,7 +17,14 @@ class AboutMe extends React.Component {
           >
             {this.props.aboutme.topic}
             <br />
+            <br />
             {this.props.aboutme.continueTopic}
+            <br />
+            <br />
+            <br />
+            {this.props.aboutme.skillsTitle}
+            <br />
+            {this.props.aboutme.skills}
           </p>
         </h6>
       </div>

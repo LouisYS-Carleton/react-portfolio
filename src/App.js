@@ -34,7 +34,6 @@ class App extends React.Component {
               {AboutMeStore.map((aboutme) => (
                 <AboutMe aboutme={aboutme} />
               ))}
-              <div></div>
             </div>
           </section>
 
