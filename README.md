@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/LouisYS-Carleton/updated_portfolio">
-    <img src="./public/Assets/MAT_9247.jpeg" alt="Logo" width="80" height="80" style="border-radius: 50%;">
+    <img src="./public/Assets/MAT_9247.jpeg" alt="Logo" width="80" height="90" style="border-radius: 50%;">
   </a>
 
   <h3 align="center">Personal Portfolio</h3>
