@@ -489,9 +489,9 @@ footer i {
 }
 
 .about-me-pictures {
-  height: 300px;
-  width: 300px;
-
+  height: 350px;
+  width: 350px;
+  margin: auto;
   border-radius: 20px;
 }
 
