@@ -1,6 +1,6 @@
 const AboutMeStore = [
   {
-    image: "./Assets/smile_sun.jpeg",
+    image: "./Assets/Cydcor-why-door-to-door-sales-scaled.jpeg",
     alt: "School",
     id: "picture-of-me",
     paragraphID: "school-paragraph",
