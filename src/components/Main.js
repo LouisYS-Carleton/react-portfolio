@@ -5,7 +5,7 @@ class Main extends React.Component {
     return (
       <section id="welcome-section" className="welcome-section">
         <h1>Louis Yacksmith's Portfolio</h1>
-        <p>Web Developer</p>
+        <p>Full Stack Web Developer</p>
         <br />
         <br />
         <br />
